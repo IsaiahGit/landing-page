@@ -91,6 +91,7 @@ ul{
     align-items: center;
     gap: 50px;
     padding: 50px 0;
+    background-color:#F9FAF8
 }
 
 .card-title{
@@ -142,6 +143,36 @@ ul{
     align-self: flex-end;
 }
 
+.action-section{
+    background-color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 180px;
+    color: #F9FAF8;
+}
+
 .action-box{
-    background-color:#3882F6;
+    background-color: #3882F6;
+    border-radius: 5px;
+    flex: 1;
+    padding: 25px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.action-title{
+    font-size: 25px;
+}
+.action-box-text{
+    font-size: 14px;
+}
+.action-button{
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    font-size: 14px;
+    flex: 0 0 1;
 }
