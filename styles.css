@@ -9,11 +9,6 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.quote-section{
-    background-color: #E5E7EB;
-    color: #1F2937;
-}
-
 .logo,.website-title{
     color: #F9FAF8;
 }
@@ -27,20 +22,126 @@ body{
     font-size: 18px;
 }
 
-.attribution{
-    font-size: 30px;
+.website-title{
+    font-size: 44px;
+    font-weight:800;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+}
+.links>li:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+    justify-content: space-between;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    padding: 50px 150px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+.placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 400px;
+    height: 250px;
+    opacity: 75%;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 2%;
+    margin: 0;
+    border: none;
+    border-radius: 12px;
+    width: 25%;
+}
+
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.card-title{
+    font-size: 36px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.card-text{
+    color:#1F2937;
+}
+
+.card-image{
+    height: 150px;
+    width: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .quote{
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 300;
-}
-.action-box{
-    background-color:#3882F6;
+    align-self: center;
 }
 
-.website-title{
-    font-size: 48px;
-    font-weight:800;
+.attribution{
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+.action-box{
+    background-color:#3882F6;
 }

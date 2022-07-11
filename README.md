@@ -10,3 +10,15 @@ Linking CSS
 
 Full Width Div
 - https://stackoverflow.com/questions/10093019/why-dont-my-divs-span-100-of-the-width
+
+Cursor Property
+- https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+Hover Selector
+- https://www.w3schools.com/cssref/sel_hover.asp
+
+Rounding Buttons 
+- https://www.w3schools.com/howto/howto_css_round_buttons.asp
+
+Borders
+- https://www.w3schools.com/css/css_border.asp
