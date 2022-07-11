@@ -4,3 +4,9 @@ This project is an example landing page to practice using the concepts of flexbo
 # Resources
 The website that describes the project.
 - https://www.theodinproject.com/lessons/foundations-landing-page
+
+Linking CSS
+- https://www.w3schools.com/html/html_css.asp
+
+Full Width Div
+- https://stackoverflow.com/questions/10093019/why-dont-my-divs-span-100-of-the-width

@@ -1,0 +1,46 @@
+.dark-bg{
+    background-color:#1F2937;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.logo,.website-title{
+    color: #F9FAF8;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.links,.title-text,.copyright{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.attribution{
+    font-size: 30px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.action-box{
+    background-color:#3882F6;
+}
+
+.website-title{
+    font-size: 48px;
+    font-weight:800;
+}
