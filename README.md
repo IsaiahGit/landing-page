@@ -22,3 +22,9 @@ Rounding Buttons
 
 Borders
 - https://www.w3schools.com/css/css_border.asp
+
+Flexbox
+- https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+Font Used
+- https://fonts.google.com/specimen/Open+Sans?query=sans#about
